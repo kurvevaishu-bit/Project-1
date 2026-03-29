@@ -152,7 +152,11 @@ This project successfully implements an AI-based descriptive answer sheet evalua
 ### 9. References
 
 [1] Smith, J., “Automated Essay Scoring using NLP,” IEEE, 2021.
+
 [2] Brown, T., “BERT: Language Understanding Model,” Google Research, 2019.
+
 [3] https://opencv.org
+
 [4] https://pytorch.org
+
 [5] https://tesseract-ocr.github.io
