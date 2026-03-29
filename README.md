@@ -65,6 +65,7 @@ Python 3.8+
 - Scanner / Mobile camera for input
 
 ### Project Structure:
+
 ai-paper-corrector/
 ├── src/
 │   ├── main.py              # Entry point
