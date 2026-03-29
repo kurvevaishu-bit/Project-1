@@ -1,5 +1,5 @@
 
-# AI-Based Paper Corrector System
+# 📝AI-Based Paper Corrector System
 
 An AI-powered system to automatically evaluate descriptive answer sheets using OCR and NLP techniques. This project reduces manual grading effort and improves consistency in evaluation.
 
@@ -66,7 +66,8 @@ Python 3.8+
 
 ### Project Structure:
 
-``` ai-paper-corrector/
+```bash
+ai-paper-corrector/
 ├── src/
 │   ├── main.py              # Entry point
 │   ├── ocr.py               # Text extraction logic
@@ -81,19 +82,22 @@ Python 3.8+
 ├── output/
 │   └── result_report.txt
 ├── README.md
-└── requirements.txt '''
-
+└── requirements.txt 
+```
 ---
 
 ### Run the Project:
-''' git clone https://github.com/YOUR_USERNAME/ai-paper-corrector.git
+```bash
+git clone https://github.com/YOUR_USERNAME/ai-paper-corrector.git
 cd ai-paper-corrector
 pip install -r requirements.txt
-python src/main.py --image dataset/sample_answer.jpg --key dataset/answer_key.json '''
+python src/main.py --image dataset/sample_answer.jpg --key dataset/answer_key.json
+```
 
 ---
 
-## 5. Results and Discussion
+### 5. Results and Discussion
+
 | Metric                       | Value        |
 | ---------------------------- | ------------ |
 | OCR Accuracy                 | ~90%         |
@@ -107,7 +111,8 @@ python src/main.py --image dataset/sample_answer.jpg --key dataset/answer_key.js
 - Provides consistent and unbiased grading
 
 ### Sample Output:
-''' Student Sheet: sample_answer.jpg
+```bash
+Student Sheet: sample_answer.jpg
 Total Questions: 10
 Correct: 7
 Partially Correct: 2
@@ -116,11 +121,12 @@ Score: 8.5/10 (85%)
 
 Feedback:
 Q2: Missing keyword "photosynthesis"
-Q5: Answer partially correct '''
+Q5: Answer partially correct
+```
 
 ---
 
-### 6. Limitations
+## 6. Limitations
 - Handwriting recognition accuracy depends on image quality
 - Complex answers may not be fully understood
 - Requires predefined answer keys
@@ -128,7 +134,7 @@ Q5: Answer partially correct '''
 
 ---
 
-### 7. Future Scope
+## 7. Future Scope
 - Improve handwriting recognition using deep learning
 - Add support for diagrams and equations
 - Build mobile app for teachers
@@ -148,9 +154,5 @@ This project successfully implements an AI-based descriptive answer sheet evalua
 [1] Smith, J., “Automated Essay Scoring using NLP,” IEEE, 2021.
 [2] Brown, T., “BERT: Language Understanding Model,” Google Research, 2019.
 [3] https://opencv.org
-
 [4] https://pytorch.org
-
 [5] https://tesseract-ocr.github.io
-
-
