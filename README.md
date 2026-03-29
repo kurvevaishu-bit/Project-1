@@ -83,11 +83,13 @@ Python 3.8+
 ├── README.md
 └── requirements.txt '''
 
+---
+
 ### Run the Project:
-git clone https://github.com/YOUR_USERNAME/ai-paper-corrector.git
+''' git clone https://github.com/YOUR_USERNAME/ai-paper-corrector.git
 cd ai-paper-corrector
 pip install -r requirements.txt
-python src/main.py --image dataset/sample_answer.jpg --key dataset/answer_key.json
+python src/main.py --image dataset/sample_answer.jpg --key dataset/answer_key.json '''
 
 ---
 
@@ -105,7 +107,7 @@ python src/main.py --image dataset/sample_answer.jpg --key dataset/answer_key.js
 - Provides consistent and unbiased grading
 
 ### Sample Output:
-Student Sheet: sample_answer.jpg
+''' Student Sheet: sample_answer.jpg
 Total Questions: 10
 Correct: 7
 Partially Correct: 2
@@ -114,7 +116,7 @@ Score: 8.5/10 (85%)
 
 Feedback:
 Q2: Missing keyword "photosynthesis"
-Q5: Answer partially correct
+Q5: Answer partially correct '''
 
 ---
 
