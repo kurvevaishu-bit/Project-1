@@ -8,7 +8,7 @@ This project presents an AI-powered system for evaluating descriptive answer she
 In educational institutions, evaluating descriptive answer sheets is a time-consuming and subjective task. Teachers often spend hours checking answers, which can lead to fatigue and inconsistent grading. Automating this process using AI and machine learning can significantly improve efficiency and accuracy.
 
 Unlike MCQ-based systems, descriptive answer evaluation requires understanding text meaning, keyword importance, and answer completeness. By integrating OCR and NLP, the system can extract and analyze answers intelligently.
- Objectives:
+ # Objectives:
 1. Extract text from answer sheet images using OCR
 2. Identify important keywords in student answers
 3. Compare answers with predefined answer keys
